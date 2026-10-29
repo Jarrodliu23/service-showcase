@@ -60,7 +60,7 @@
 
 /* Hotel product sheets are rendered as nested image elements for dependable local display. */
 .hotel-item-photo.hotel-generated-photo{position:relative;display:block;box-sizing:border-box;width:100%;height:auto!important;aspect-ratio:1;flex:0 0 auto;overflow:hidden;object-fit:initial;padding:0!important;background-color:#f5f2ec}
-.hotel-generated-photo--furniture{aspect-ratio:3/2}
-.hotel-generated-photo--room{aspect-ratio:2/1}
+.hotel-item-photo.hotel-generated-photo--furniture{aspect-ratio:3/2!important}
+.hotel-item-photo.hotel-generated-photo--room{aspect-ratio:2/1!important}
 .hotel-sheet-crop{position:absolute!important;display:block!important;max-width:none!important;object-fit:fill!important;margin:0!important;padding:0!important}
 .hotel-item-photo.hotel-accessory-photo{display:block;width:100%;height:auto!important;aspect-ratio:1;object-fit:cover;padding:0;background:#f5f2ec}
