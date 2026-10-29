@@ -64,3 +64,6 @@
 .hotel-item-photo.hotel-generated-photo--room{aspect-ratio:2/1!important}
 .hotel-sheet-crop{position:absolute!important;display:block!important;max-width:none!important;object-fit:fill!important;margin:0!important;padding:0!important}
 .hotel-item-photo.hotel-accessory-photo{display:block;width:100%;height:auto!important;aspect-ratio:1;object-fit:cover;padding:0;background:#f5f2ec}
+
+/* Show full category images on the main page. */
+.solution-card figure{height:auto!important;aspect-ratio:3/2}.solution-card img{object-fit:contain!important;object-position:center;background:#d8d6c8;transition:none!important}.solution-card:hover img{transform:none!important}
