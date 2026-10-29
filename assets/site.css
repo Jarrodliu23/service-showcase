@@ -67,3 +67,12 @@
 
 /* Show full category images on the main page. */
 .solution-card figure{height:260px!important;aspect-ratio:auto}.solution-card img{width:100%;height:100%;object-fit:contain!important;object-position:center;background:#d8d6c8;transition:none!important}.solution-card:hover img{transform:none!important}@media(max-width:760px){.solution-card figure{height:220px!important}}
+
+/* Hotel landing page: full-width room cover and matching, uncropped category photographs. */
+.hotel-page .hero-image{height:auto;aspect-ratio:3/2;background:#e8e5db}
+.hotel-page .hero-image img{display:block;width:100%;height:100%;object-fit:contain;background:#e8e5db}
+.hotel-page .range-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.hotel-page .range-card figure{height:auto;aspect-ratio:3/2;background:#e8e5db}
+.hotel-page .range-card figure img{display:block;width:100%;height:100%;object-fit:contain;background:#e8e5db}
+@media(max-width:1000px){.hotel-page .range-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.hotel-page .range-grid{grid-template-columns:1fr}}
