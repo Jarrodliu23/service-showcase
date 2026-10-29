@@ -1,3 +1,5 @@
 # Services Showcase
 
-Static product and service pages for the client showcase website.
+Static product and supply pages for the client showcase website.
+
+Website: https://jarrodliu23.github.io/service-showcase/
