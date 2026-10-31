@@ -76,3 +76,7 @@
 .hotel-page .range-card figure img{display:block;width:100%;height:100%;object-fit:contain;background:#e8e5db}
 @media(max-width:1000px){.hotel-page .range-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.hotel-page .range-grid{grid-template-columns:1fr}}
+
+/* Interpoint d.o.o. brand image */
+.brand{gap:0}.brand-logo{display:block;width:180px;max-width:min(180px,44vw);height:auto;mix-blend-mode:multiply}.footer .brand-logo{width:145px;max-width:145px}
+@media(max-width:600px){.brand-logo{width:150px;max-width:42vw}.footer .brand-logo{width:130px}}
